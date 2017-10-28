@@ -17,8 +17,17 @@ When I was looking into making technical project about the history of India, I f
 * Treaties signed throughout the period.
 * Rulers and Governer Generals.
 * Wars and Battles
+* Famines
+* 
 
 ## How can you access this data?
 
 * You can use these json files directly
 * Using the api that will exist soon
+
+## References
+
+Many thanks to all the sites, papers and book below.
+
+* https://en.wikipedia.org/wiki/List_of_governors-general_of_India
+* 
