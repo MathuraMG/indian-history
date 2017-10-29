@@ -1,27 +1,61 @@
 {
   "about": "The Regulating Act of 1773 created the office with the title of Governor-General of the Presidency of Fort William, or Governor-General of Bengal to be appointed by the Court of Directors of the East India Company (EIC). The Saint Helena Act 1833 (or Government of India Act 1833) re-designated the office with the title of Governor-General of India. After the Indian Rebellion of 1857, the company rule was brought to an end, and the British India along with princely states came under the direct rule of the Crown. Following the adoption of the Government of India Act of 1858, the Governor-General as representing the Crown became known as the Viceroy. The designation 'Viceroy', although it was most frequently used in ordinary parlance, had no statutory authority, and was never employed by Parliament. The Governor-General continued to be the sole representative of the Crown. From the year 1858 onwards, the appointments of Governor-General of India were made by British Crown at the advice of Secretary of State for India. ",
-  "list" = [
+  "list": [
 	{
-	  "name": "Warrer Hastings",
-    "chronology": 1
+    "name": "Warrer Hastings",
+    "chronology": 1,
     "life span": [1732, 1818],
     "term start": "1773-10-20",
     "end term": "1785-02-01",
     "events": []
     },{
-	  "name": "John Macpherson",
-    "chronology": 2
+    "name": "John Macpherson",
+    "chronology": 2,
     "life span": [1745, 1821],
     "term start": "1785-02-01",
     "end term": "1786-09-12",
     "events": []
     },{
-	  "name": "Charles Cornwallis
-The Marquess Cornwallis",
-    "chronology": 3
+    "name": "Charles Cornwalli, The Marquess Cornwallis",
+    "chronology": 3,
     "life span": [1738, 1805],
     "term start": "1786-09-12",
     "end term": "1793-10-28",
+    "events": []
+    },{
+    "name": "John Shore",
+    "chronology": 4,
+    "life span": [1751, 1834],
+    "term start": "1793-10-28",
+    "end term": "1798-03-18",
+    "events": []
+    },{
+    "name": "Alured Clarke",
+    "chronology": 5,
+    "life span": [1744, 1832],
+    "term start": "1798-03-18",
+    "end term": "1798-05-18",
+    "events": []
+    },{
+    "name": "Richard Wellesley, Earl of Mornington",
+    "chronology": 6,
+    "life span": [1760, 1842],
+    "term start": "1798-05-18",
+    "end term": "1805-07-30",
+    "events": []
+    },{
+    "name": "Charles Cornwalli, The Marquess Cornwallis",
+    "chronology": 7,
+    "life span": [1738, 1805],
+    "term start": "1805-07-30",
+    "end term": "1805-10-05",
+    "events": []
+    },{
+    "name": "Sir George Barlow, Bt",
+    "chronology": 8,
+    "life span": [1762, 1847],
+    "term start": "1805-10-10",
+    "end term": "1807-07-31",
     "events": []
     }
   ]
