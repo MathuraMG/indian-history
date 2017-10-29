@@ -1,62 +1,426 @@
 {
   "about": "The Regulating Act of 1773 created the office with the title of Governor-General of the Presidency of Fort William, or Governor-General of Bengal to be appointed by the Court of Directors of the East India Company (EIC). The Saint Helena Act 1833 (or Government of India Act 1833) re-designated the office with the title of Governor-General of India. After the Indian Rebellion of 1857, the company rule was brought to an end, and the British India along with princely states came under the direct rule of the Crown. Following the adoption of the Government of India Act of 1858, the Governor-General as representing the Crown became known as the Viceroy. The designation 'Viceroy', although it was most frequently used in ordinary parlance, had no statutory authority, and was never employed by Parliament. The Governor-General continued to be the sole representative of the Crown. From the year 1858 onwards, the appointments of Governor-General of India were made by British Crown at the advice of Secretary of State for India. ",
-  "list": [
-	{
-    "name": "Warrer Hastings",
-    "chronology": 1,
-    "life span": [1732, 1818],
-    "term start": "1773-10-20",
-    "end term": "1785-02-01",
-    "events": []
-    },{
-    "name": "John Macpherson",
-    "chronology": 2,
-    "life span": [1745, 1821],
-    "term start": "1785-02-01",
-    "end term": "1786-09-12",
-    "events": []
-    },{
-    "name": "Charles Cornwalli, The Marquess Cornwallis",
-    "chronology": 3,
-    "life span": [1738, 1805],
-    "term start": "1786-09-12",
-    "end term": "1793-10-28",
-    "events": []
-    },{
-    "name": "John Shore",
-    "chronology": 4,
-    "life span": [1751, 1834],
-    "term start": "1793-10-28",
-    "end term": "1798-03-18",
-    "events": []
-    },{
-    "name": "Alured Clarke",
-    "chronology": 5,
-    "life span": [1744, 1832],
-    "term start": "1798-03-18",
-    "end term": "1798-05-18",
-    "events": []
-    },{
-    "name": "Richard Wellesley, Earl of Mornington",
-    "chronology": 6,
-    "life span": [1760, 1842],
-    "term start": "1798-05-18",
-    "end term": "1805-07-30",
-    "events": []
-    },{
-    "name": "Charles Cornwalli, The Marquess Cornwallis",
-    "chronology": 7,
-    "life span": [1738, 1805],
-    "term start": "1805-07-30",
-    "end term": "1805-10-05",
-    "events": []
-    },{
-    "name": "Sir George Barlow, Bt",
-    "chronology": 8,
-    "life span": [1762, 1847],
-    "term start": "1805-10-10",
-    "end term": "1807-07-31",
-    "events": []
+  "list": [{
+      "name": "Warrer Hastings",
+      "index": 1,
+      "life span": [1732, 1818],
+      "term start": "1773-10-20",
+      "term end": "1785-02-01",
+      "title": "Governor of the Presidency of Fort William (Bengal)",
+      "appointer": "East India Company",
+      "events": []
+    }, {
+      "name": "John Macpherson",
+      "index": 2,
+      "life span": [1745, 1821],
+      "term start": "1785-02-01",
+      "term end": "1786-09-12",
+      "title": "Governor of the Presidency of Fort William (Bengal)",
+      "appointer": "East India Company",
+      "events": []
+    }, {
+      "name": "Charles Cornwalli, The Marquess Cornwallis",
+      "index": 3,
+      "life span": [1738, 1805],
+      "term start": "1786-09-12",
+      "term end": "1793-10-28",
+      "title": "Governor of the Presidency of Fort William (Bengal)",
+      "appointer": "East India Company",
+      "events": []
+    }, {
+      "name": "John Shore",
+      "index": 4,
+      "life span": [1751, 1834],
+      "term start": "1793-10-28",
+      "term end": "1798-03-18",
+      "title": "Governor of the Presidency of Fort William (Bengal)",
+      "appointer": "East India Company",
+      "events": []
+    }, {
+      "name": "Alured Clarke",
+      "index": 5,
+      "life span": [1744, 1832],
+      "term start": "1798-03-18",
+      "term end": "1798-05-18",
+      "title": "Governor of the Presidency of Fort William (Bengal)",
+      "appointer": "East India Company",
+      "events": []
+    }, {
+      "name": "Richard Wellesley, Earl of Mornington",
+      "index": 6,
+      "life span": [1760, 1842],
+      "term start": "1798-05-18",
+      "term end": "1805-07-30",
+      "title": "Governor of the Presidency of Fort William (Bengal)",
+      "appointer": "East India Company",
+      "events": []
+    }, {
+      "name": "Charles Cornwalli, The Marquess Cornwallis",
+      "index": 7,
+      "life span": [1738, 1805],
+      "term start": "1805-07-30",
+      "term end": "1805-10-05",
+      "title": "Governor of the Presidency of Fort William (Bengal)",
+      "appointer": "East India Company",
+      "events": []
+    }, {
+      "name": "Sir George Barlow, Bt",
+      "index": 8,
+      "life span": [1762, 1847],
+      "term start": "1805-10-10",
+      "term end": "1807-07-31",
+      "title": "Governor of the Presidency of Fort William (Bengal)",
+      "appointer": "East India Company",
+      "events": []
+    }, {
+      "name": "The Lord Minto",
+      "index": 9,
+      "life span": [1751, 1814],
+      "term start": "1807-07-31",
+      "term end": "1813-10-04",
+      "title": "Governor of the Presidency of Fort William (Bengal)",
+      "appointer": "East India Company",
+      "events": []
+    }, {
+      "name": "Francis Rawdon-Hastings, The Earl of Moira",
+      "index": 10,
+      "life span": [1754, 1826],
+      "term start": "1813-10-04",
+      "term end": "1823-01-09",
+      "title": "Governor of the Presidency of Fort William (Bengal)",
+      "appointer": "East India Company",
+      "events": []
+    }, {
+      "name": "John Adam",
+      "index": 11,
+      "life span": [1779, 1825],
+      "term start": "1823-01-09",
+      "term end": "1823-08-01",
+      "title": "Governor of the Presidency of Fort William (Bengal)",
+      "appointer": "East India Company",
+      "events": []
+    }, {
+      "name": "The Lord Amherst",
+      "index": 12,
+      "life span": [1773, 1857],
+      "term start": "1823-08-01",
+      "term end": "1828-03-13",
+      "title": "Governor of the Presidency of Fort William (Bengal)",
+      "appointer": "East India Company",
+      "events": []
+    }, {
+      "name": "William Butterworth Bayley",
+      "index": 13,
+      "life span": [1782, 1860],
+      "term start": "1828-03-13",
+      "term end": "1828-07-04",
+      "title": "Governor of the Presidency of Fort William (Bengal)",
+      "appointer": "East India Company",
+      "events": []
+    },
+
+    {
+      "name": "Lord William Bentinck",
+      "index": 14,
+      "life span": [1774, 1839],
+      "term start": "1828-07-04",
+      "term end": "1835-03-20",
+      "title": "Governor-General of India",
+      "appointer": "East India Company",
+      "events": []
+    }, {
+      "name": "Charles Metcalfe, Bt",
+      "index": 15,
+      "life span": [1785, 1846],
+      "term start": "1835-03-20",
+      "term end": "1836-03-04",
+      "title": "Governor-General of India",
+      "appointer": "East India Company",
+      "events": []
+    }, {
+      "name": "The Lord Auckland",
+      "index": 16,
+      "life span": [1784, 1849],
+      "term start": "1836-03-04",
+      "term end": "1842-02-28",
+      "title": "Governor-General of India",
+      "appointer": "East India Company",
+      "events": []
+    }, {
+      "name": "The Lord Ellenborough",
+      "index": 17,
+      "life span": [1790, 1871],
+      "term start": "1842-02-28",
+      "term end": "1844-06-00",
+      "title": "Governor-General of India",
+      "appointer": "East India Company",
+      "events": []
+    }, {
+      "name": "William Wilberforce Bird",
+      "index": 18,
+      "life span": [1784, 1857],
+      "term start": "1844-06-00",
+      "term end": "1844-07-23",
+      "title": "Governor-General of India",
+      "appointer": "East India Company",
+      "events": []
+    }, {
+      "name": "Henry Hardinge",
+      "index": 19,
+      "life span": [1785, 1856],
+      "term start": "1844-07-23",
+      "term end": "1848-01-12",
+      "title": "Governor-General of India",
+      "appointer": "East India Company",
+      "events": []
+    }, {
+      "name": "The Earl of Dallhousie",
+      "index": 20,
+      "life span": [1812, 1860],
+      "term start": "1848-01-12",
+      "term end": "1856-02-28",
+      "title": "Governor-General of India",
+      "appointer": "East India Company",
+      "events": []
+    },
+
+    {
+      "name": "The Viscount Canning",
+      "index": 21,
+      "life span": [1812, 1862],
+      "term start": "1856-02-28",
+      "term end": "21 March 1862-03-21",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "Queen Victoria",
+      "events": []
+    }, {
+      "name": "The Earl of Elgin",
+      "index": 22,
+      "life span": [1811, 1863],
+      "term start": "1862-03-21",
+      "term end": "1863-10-20",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "Queen Victoria",
+      "events": []
+    }, {
+      "name": "Robert Napier",
+      "index": 23,
+      "life span": [1810, 1890],
+      "term start": "1863-10-21",
+      "term end": "1863-12-02",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "Queen Victoria",
+      "events": []
+    }, {
+      "name": "William Denison",
+      "index": 24,
+      "life span": [1804, 1871],
+      "term start": "1863-12-02",
+      "term end": "1864-01-12",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "Queen Victoria",
+      "events": []
+    }, {
+      "name": "Sir John Lawrence, Bt",
+      "index": 25,
+      "life span": [1811, 1879],
+      "term start": "1864-01-12",
+      "term end": "1869-01-12",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "Queen Victoria",
+      "events": []
+    }, {
+      "name": "The Earl of Mayo",
+      "index": 26,
+      "life span": [1822, 1872],
+      "term start": "1869-01-12",
+      "term end": "1872-02-08",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "Queen Victoria",
+      "events": []
+    }, {
+      "name": "Sir John Strachey",
+      "index": 27,
+      "life span": [1823, 1907],
+      "term start": "1872-02-09",
+      "term end": "1872-02-23",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "Queen Victoria",
+      "events": []
+    }, {
+      "name": "The Lord Napier",
+      "index": 28,
+      "life span": [1819, 1898],
+      "term start": "1872-02-24",
+      "term end": "1872-05-03",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "Queen Victoria",
+      "events": []
+    }, {
+      "name": "The Lord Northbrook",
+      "index": 29,
+      "life span": [1826, 1904],
+      "term start": "1872-05-03",
+      "term end": "1876-04-12",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "Queen Victoria",
+      "events": []
+    }, {
+      "name": "The Lord Lytton",
+      "index": 30,
+      "life span": [1831, 1891],
+      "term start": "1876-04-12",
+      "term end": "1880-06-08",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "Queen Victoria",
+      "events": []
+    }, {
+      "name": "The Marquess of Ripon",
+      "index": 31,
+      "life span": [1827, 1909],
+      "term start": "1880-06-08",
+      "term end": "1884-12-13",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "Queen Victoria",
+      "events": []
+    }, {
+      "name": "The Earl of Dufferin",
+      "index": 32,
+      "life span": [1826, 1902],
+      "term start": "1884-12-13",
+      "term end": "1888-12-10",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "Queen Victoria",
+      "events": []
+    }, {
+      "name": "The Marquess of Lansdowne",
+      "index": 33,
+      "life span": [1845, 1927],
+      "term start": "1888-12-10",
+      "term end": "1894-10-11",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "Queen Victoria",
+      "events": []
+    }, {
+      "name": "The Earl of Elgin",
+      "index": 34,
+      "life span": [1849, 1917],
+      "term start": "1894-10-11",
+      "term end": "1899-01-06",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "Queen Victoria",
+      "events": []
+    }, {
+      "name": "The Lord Curzon of Kedleston[nb 10]",
+      "index": 35,
+      "life span": [1859, 1925],
+      "term start": "1899-01-06",
+      "term end": "1905-11-18",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "Queen Victoria",
+      "events": []
+    }, {
+      "name": "The Earl of Minto",
+      "index": 36,
+      "life span": [1845, 1914],
+      "term start": "1905-11-18",
+      "term end": "1911-11-23",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "King Edward VII",
+      "events": []
+    }, {
+      "name": "The Lord Hardinge of Penshurst",
+      "index": 37,
+      "life span": [1858, 1944],
+      "term start": "1911-11-23",
+      "term end": "1916-04-04",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "King George V",
+      "events": []
+    }, {
+      "name": "The Lord Chelmsford",
+      "index": 38,
+      "life span": [1868, 1933],
+      "term start": "1916-04-04",
+      "term end": "1921-04-02",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "King George V",
+      "events": []
+    }, {
+      "name": "The Earl of Reading",
+      "index": 39,
+      "life span": [1860, 1935],
+      "term start": "1921-04-02",
+      "term end": "1926-04-03",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "King George V",
+      "events": []
+    }, {
+      "name": "The Lord Irwin",
+      "index": 40,
+      "life span": [1881, 1959],
+      "term start": "1926-04-03",
+      "term end": "1931-04-18",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "King George V",
+      "events": []
+    }, {
+      "name": "The Earl of Willingdon",
+      "index": 41,
+      "life span": [1866, 1941],
+      "term start": "1931-04-18",
+      "term end": "1936-04-18",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "King George V",
+      "events": []
+    }, {
+      "name": "The Marquess of Linlithgow",
+      "index": 42,
+      "life span": [1887, 1952],
+      "term start": "1936-04-18",
+      "term end": "1943-10-01",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "King Edward VIII",
+      "events": []
+    }, {
+      "name": "The Viscount Wavell",
+      "index": 43,
+      "life span": [1883, 1950],
+      "term start": "1943-10-01",
+      "term end": "1947-02-21",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "King George VI",
+      "events": []
+    }, {
+      "name": "The Viscount Mountbatten of Burma",
+      "index": 44,
+      "life span": [1900, 1979],
+      "term start": "1947-02-21",
+      "term end": "1947-08-15",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "King George VI",
+      "events": []
     }
+
+    , {
+      "name": "The Viscount Mountbatten of Burma",
+      "index": 45,
+      "life span": [1900, 1979],
+      "term start": "1947-08-15",
+      "term end": "1948-06-21",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "King George VI",
+      "events": []
+    }, {
+      "name": "C. Rajagopalachari",
+      "index": 46,
+      "life span": [1878, 1972],
+      "term start": "1948-06-21",
+      "term end": "1960-01-26",
+      "title": "Governer-General and Viceroy of India",
+      "appointer": "King George VI",
+      "events": []
+    }
+
   ]
 }
