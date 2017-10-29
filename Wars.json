@@ -1,0 +1,41 @@
+{
+  "about": "",
+  "list": [
+    {
+      "name": "First Anglo-Mysore War",
+      "year": ["1767","1769"]
+    },
+    {
+      "name": "Second Anglo-Mysore War",
+      "year": ["1780","1784"]
+    },
+    {
+      "name": "Third Anglo-Mysore War",
+      "year": ["1790","1792"]
+    },
+    {
+      "name": "Fourth Anglo-Mysore War",
+      "year": ["1799"]
+    },
+    {
+      "name": "First Anglo-Maratha War",
+      "year": ["1775","1782"]
+    },
+    {
+      "name": "Second Anglo-Maratha War",
+      "year": ["1803","1805"]
+    },
+    {
+      "name": "Third Anglo-Maratha War",
+      "year": ["1817-11","1818-02"]
+    },
+    {
+      "name": "First Anglo-Sikh War",
+      "year": ["1845-12-11","1846-03-09"]
+    },
+    {
+      "name": "Second Anglo-Sikh War",
+      "year": ["1848-04-18","1849-03-30"]
+    }
+  ]
+}
