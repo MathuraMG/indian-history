@@ -30,4 +30,4 @@ When I was looking into making technical project about the history of India, I f
 Many thanks to all the sites, papers and book below.
 
 * https://en.wikipedia.org/wiki/List_of_governors-general_of_India
-* 
+* https://github.com/jdorfman/awesome-json-datasets#historical-events
