@@ -25,6 +25,9 @@ When I was looking into making technical project about the history of India, I f
 * You can use these json files directly
 * Using the api that will exist soon
 
+## Excels
+* https://docs.google.com/spreadsheets/d/1JYDz8xmevhlLRBozuZ2YrsBQ4pKI9kJNqqrjwykUG3I/edit#gid=988979861
+
 ## References
 
 Many thanks to all the sites, papers and book below.
