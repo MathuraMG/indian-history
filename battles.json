@@ -454,7 +454,7 @@
 		"year": "1791",
 		"dates": ["1791-09-13\", \"1791-09-15"],
 		"location": "Satyamangalam",
-		"coord": "12.8187079,77.88960339999994",
+		"coord": [12.8187079,77.88960339999994],
 		"war": "Third Anglo-Mysore War",
 		"note": "",
 		"link": "https://en.wikipedia.org/wiki/Battle_of_Sittimungulum",
