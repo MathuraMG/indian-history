@@ -28,6 +28,10 @@ When I was looking into making technical project about the history of India, I f
 ## Excels
 * https://docs.google.com/spreadsheets/d/1JYDz8xmevhlLRBozuZ2YrsBQ4pKI9kJNqqrjwykUG3I/edit#gid=988979861
 
+## Visuals
+
+* [View the battles](http://mathuramg.com/indian-history/battles/)
+
 ## References
 
 Many thanks to all the sites, papers and book below.
