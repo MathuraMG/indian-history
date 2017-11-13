@@ -1,0 +1,70 @@
+h1,h2,h3,h4,p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #242426;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#yearSlider {
+  width: 100%;
+}
+
+.locations {
+  color: #000;
+  z-index: 1000;
+}
+
+.battle{
+  text-align: center;
+  background: #eee;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  margin: 2rem;
+  border-radius: 1rem;
+}
+
+.battle__details {
+  padding: 1rem;
+}
+
+.battle__name {
+  background: #b54848;
+  color: #fff;
+  padding: 0.5rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  font-size: 1.6rem;
+  font-weight: 100;
+}
+
+.battle__war {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.page__heading {
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 100;
+  color: #fff;
+}
+
+.heading__year {
+  color: #b54848;
+}
+
+.page__subheading {
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 100;
+  color: #ddd;
+}
