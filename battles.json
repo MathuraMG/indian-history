@@ -100,7 +100,7 @@
 	{
 		"name": "Siege of Arcot",
 		"year": "1751",
-		"dates": ["1751-09-23\", \"1751-11-14"],
+		"dates": ["1751-09-23", "1751-11-14"],
 		"location": "Arcot",
 		"coord": [12.904441, 79.31915759999993],
 		"war": "Second Carnatic War",
