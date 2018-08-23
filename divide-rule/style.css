@@ -1,0 +1,26 @@
+.view {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('./images/back.png')
+}
+
+.map {
+  max-width: 60%;
+  max-height: 80vh;
+  margin: 0 auto;
+  position: absolute;
+  transition: opacity 0.3s linear;
+}
+
+.map.hidden {
+  opacity: 0;
+}
+
+.page:nth-child(2n) {
+  background: rgba(0,0,0,0.02);
+}
