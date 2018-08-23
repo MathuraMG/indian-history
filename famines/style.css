@@ -1,0 +1,25 @@
+h1,h2,h3,h4,p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #cacaca;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.famines__container {
+  position: relative;
+  width: 100%;
+}
+
+.famine__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+}
+
+.show {
+  display: block;
+}
