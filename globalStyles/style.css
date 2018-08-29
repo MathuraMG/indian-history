@@ -2,19 +2,52 @@
   position: fixed;
   width: 100vw;
   height: 100vh;
-
+  top: 0;
+  right: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('../globalImages/back.png')
+  background: url('../globalImages/back.png');
+  width: calc(100% - 250px);
 }
 
 .map {
-  width: 60%;
-  /* max-height: 80vh; */
-  margin: 0 auto;
+  max-width: 40%;
   position: absolute;
   transition: opacity 0.3s linear;
+}
+
+.map-image {
+  width: 100%;
+}
+
+.map-title {
+  display: flex;
+  width: fit-content;
+  align-self: auto;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-family: Helvetica;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #141414;
+  padding: 0.5rem;
+}
+
+.map-subtitle {
+  display: flex;
+  width: fit-content;
+  align-self: auto;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: Helvetica;
+  color: white;
+  border-radius: 3px;
+  background: #3bafb0;
+  padding: 0.5rem;
 }
 
 .map.hidden {
@@ -23,4 +56,62 @@
 
 .page:nth-child(2n) {
   background: rgba(0,0,0,0.02);
+}
+
+/* NAV STYLES */
+.nav {
+  width: 300px;
+  background-color: #141414;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-button {
+  background: #424242;
+  color: #9b9b9b;
+  width: 100%;
+  margin: 1px auto;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 3px;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+}
+
+.nav-button--selected {
+  background: #3bafb044;
+}
+
+.nav-desc {
+  color: #9b9b9b;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  text-align: center;
+  width: 80%;
+  margin: 1rem auto;
+  text-transform: uppercase;
+}
+
+.nav-title{
+  color: white;
+  font-size: 1rem;
+  background: #3bafb0;
+  padding: 0.5rem;
+  border: 1px solid white;
+  border-radius: 3px;
+  text-align: center;
+  width: 80%;
+  margin: 1rem auto;
+  text-transform: uppercase;
 }

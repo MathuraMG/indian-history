@@ -5,34 +5,30 @@
     <title></title>
     <script src="../libraries/jquery.min.js"></script>
     <script src="../libraries/scrollify.js"></script>
-    <script src="../js/app.js"></script>
+
+    <script src="data/famine.js"></script>
+
+    <script src="../js/timeline.js"></script>
+    <script src="../js/nav.js"></script>
+    <script src="./app.js"></script>
     <script src="../js/keyboard.js"></script>
 
     <link rel="stylesheet" href="../globalStyles/style.css">
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <div class="view">
-      <img data-page="0" class="map" src="./images/1812.png"/>
-      <img data-page="1" class="hidden map" src="./images/1833.png"/>
-      <img data-page="2" class="hidden map" src="./images/1837-38.png"/>
-      <img data-page="3" class="hidden map" src="./images/1854.png"/>
-      <img data-page="4" class="hidden map" src="./images/1860-61.png"/>
-      <img data-page="5" class="hidden map" src="./images/1865-66.png"/>
-      <img data-page="6" class="hidden map" src="./images/1866-69.png"/>
-      <img data-page="7" class="hidden map" src="./images/1873-74.png"/>
-      <img data-page="8" class="hidden map" src="./images/1876-78.png"/>
-    </div>
-
-    <div class="pages">
-      <div data-page="0" class="page"></div>
-      <div data-page="1" class="page"></div>
-      <div data-page="2" class="page"></div>
-      <div data-page="3" class="page"></div>
-      <div data-page="4" class="page"></div>
-      <div data-page="5" class="page"></div>
-      <div data-page="6" class="page"></div>
-      <div data-page="7" class="page"></div>
-      <div data-page="8" class="page"></div>
-    </div>
+    <nav class="nav">
+      <h1 class="nav-title">
+        Famines in British Raj
+      </h1>
+      <p class="nav-desc">
+        Victims of the Great Famine of 1876–78 in India, pictured in 1877.
+        Famine had been a recurrent feature of life the Indian sub-continental countries of India, Pakistan and Bangladesh, most famously during British Raj. Famines in India resulted in more than 60 million deaths over the course of the 18th, 19th, and early 20th centuries. The last major famine was the Bengal famine of 1943.
+      </p>
+      <div class="nav-content">
+      </div>
+    </nav>
+    <div class="view"></div>
+    <div class="pages"></div>
   </body>
 </html>
