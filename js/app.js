@@ -16,8 +16,8 @@ var hideAllMaps = function() {
 var showMaps = function(pageNumber) {
   maps.each(function(map) {
     var map = $(this);
-    
     if (parseInt(map.data("page")) <= pageNumber) {
+      hideAllMaps();
       map.removeClass("hidden");
     }
   });
@@ -26,7 +26,7 @@ var showMaps = function(pageNumber) {
 $(function() {
   maps = $(mapSelector);
   pages = $(pageSelector);
-  
+
   $.scrollify({
     section : pageSelector,
     before: renderPage
