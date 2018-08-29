@@ -75,22 +75,25 @@
 .nav-content {
   display: flex;
   flex-direction: column;
+  margin-bottom: 1rem;
 }
 
 .nav-button {
-  background: #424242;
+  background: #141414;
   color: #9b9b9b;
-  width: 100%;
-  margin: 1px auto;
+  width: 80%;
+  margin: 3px auto;
   padding: 0.5rem;
-  border: none;
+  border: 1px solid;
   border-radius: 3px;
   font-size: 0.6rem;
   text-transform: uppercase;
 }
 
 .nav-button--selected {
-  background: #3bafb044;
+  background: #9b9b9b;
+  color: #141414;
+  font-weight: 700;
 }
 
 .nav-desc {

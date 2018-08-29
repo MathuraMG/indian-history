@@ -10,11 +10,15 @@ Nav.prototype.init = function() {
   this.navItems = [];
   this.data = window.data[this.project];
   this.data.forEach(this.addNavButtons.bind(this));
-  console.log(this.currentIndex);
-  // debugger;
-  console.log($.scrollify.currentIndex());
   $($(".nav-button")[this.currentIndex]).addClass('nav-button--selected');
-  // $(".nav-button")[this.currentIndex].addClass('nav-button--selected');
+  let that = this;
+  $(document).keydown(function() {
+    console.log(that.currentIndex);
+    $($(".nav-button")[that.currentIndex]).removeClass('nav-button--selected');
+    that.currentIndex = $.scrollify.currentIndex();
+    console.log($.scrollify.currentIndex());
+    $($(".nav-button")[that.currentIndex]).addClass('nav-button--selected');
+  });
 };
 
 
@@ -38,8 +42,20 @@ Nav.prototype.navigate = function(index)
 {
   let indexStr = '#' + (parseInt(index)+1)
   $.scrollify.move(indexStr);
-  console.log(this.currentIndex);
   $($(".nav-button")[this.currentIndex]).removeClass('nav-button--selected');
   this.currentIndex = index;
   $($(".nav-button")[this.currentIndex]).addClass('nav-button--selected');
 }
+
+// $(function() {
+//   console.log('loooo');
+//   $(document).keydown(handleKeydown1);
+// });
+//
+// var handleKeydown1 = function(event) {
+//   console.log(Nav);
+//   console.log(this.currentIndex);
+//   $($(".nav-button")[this.currentIndex]).removeClass('nav-button--selected');
+//   this.currentIndex = index;
+//   $($(".nav-button")[this.currentIndex]).addClass('nav-button--selected');
+// };
