@@ -12,7 +12,7 @@
 }
 
 .map {
-  max-width: 40%;
+  max-width: 50%;
   position: absolute;
   transition: opacity 0.3s linear;
 }
