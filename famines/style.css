@@ -23,3 +23,13 @@ body {
 .show {
   display: block;
 }
+
+@media only screen and (max-width: 480px) {
+  .nav {
+    display: none;
+  }
+  .view {
+    left: 0;
+    width: 100%;
+  }
+}
