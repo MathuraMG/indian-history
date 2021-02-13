@@ -30,11 +30,12 @@ When I was looking into making technical project about the history of India, I f
 
 ## Visuals
 
-* [View the battles](http://mathuramg.com/indian-history/battles/)
+* [View the battles](http://mathuramg.com/indian-history/battles/index.html)
+* [Famines](http://mathuramg.com/indian-history/famines/index.html)
 
 ## References
 
 Many thanks to all the sites, papers and book below.
-
+* http://histography.io/ (BEST WEBSITE EVER!)
 * https://en.wikipedia.org/wiki/List_of_governors-general_of_India
 * https://github.com/jdorfman/awesome-json-datasets#historical-events
